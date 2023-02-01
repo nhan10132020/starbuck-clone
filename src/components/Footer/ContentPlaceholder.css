@@ -1,0 +1,26 @@
+.contentPlaceholder {
+    padding: 0 50px;
+    transform-origin: top center;
+  }
+  
+  .word {
+    color: rgba(0, 0, 0, 0.56);
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+  .paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  @media (max-width: 425px) {
+    .contentPlaceholder {
+      padding-left: 25px;
+      padding-right: 25px;
+    }
+    .word {
+      font-size: 14px;
+    }
+  }
